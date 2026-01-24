@@ -1,0 +1,15 @@
+#CRC Codes for initially generated config files -- do not modify!
+rail/profile_wisun_fan_1_0.restriction=-886690001
+rail/profile_wisun_fan_1_1.restriction=-60434286
+rail/profile_wisun_han.restriction=2053819207
+rail/radio_settings.radioconf=1265451811
+sl_simple_led_led0_config.h=-387326607
+sl_simple_led_led1_config.h=982966042
+sl_simple_led_led2_config.h=-543593118
+sl_simple_led_led3_config.h=1490287657
+sl_simple_led_led4_config.h=-1038970421
+sl_simple_led_relay1_config.h=-796643403
+sl_simple_led_relay2_config.h=-930447072
+sl_wisun_app_status_config.h=-1650143112
+wisun/lfn_not_supported.restriction=-1344575370
+wisun/wisun_settings.wisunconf=-399034412
