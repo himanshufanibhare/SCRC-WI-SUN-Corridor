@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corridor Light Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>💡 Corridor Light Control</h1>
+            <div class="node-status-wrap">
+                <span id="node-status" class="status-pill offline">Offline</span>
+            </div>
+        </header>
+
+        <div class="controls">
+            <!-- Individual Relay Controls -->
+            <div class="relay-section">
+                <h2>Individual Controls</h2>
+                <div class="relay-grid">
+                    <div class="relay-card">
+                        <h3>Relay 1</h3>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="relay1" onchange="toggleRelay(1)">
+                            <span class="slider"></span>
+                        </label>
+                        <div class="status" id="status1">OFF</div>
+                    </div>
+
+                    <div class="relay-card">
+                        <h3>Relay 2</h3>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="relay2" onchange="toggleRelay(2)">
+                            <span class="slider"></span>
+                        </label>
+                        <div class="status" id="status2">OFF</div>
+                    </div>
+
+                    <div class="relay-card">
+                        <h3>Relay 3</h3>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="relay3" onchange="toggleRelay(3)">
+                            <span class="slider"></span>
+                        </label>
+                        <div class="status" id="status3">OFF</div>
+                    </div>
+
+                    <div class="relay-card">
+                        <h3>Relay 4</h3>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="relay4" onchange="toggleRelay(4)">
+                            <span class="slider"></span>
+                        </label>
+                        <div class="status" id="status4">OFF</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Master Control -->
+            <div class="master-section">
+                <h2>Master Control</h2>
+                <div class="master-buttons">
+                    <button class="btn btn-all-on" onclick="controlAll('on')">
+                        🔆 Turn All ON
+                    </button>
+                    <button class="btn btn-all-off" onclick="controlAll('off')">
+                        ⚫ Turn All OFF
+                    </button>
+                </div>
+                <div class="master-status" id="master-status"></div>
+            </div>
+        </div>
+
+        <!-- Notification area -->
+        <div id="notification" class="notification"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="developer-info">Developed by Himanshu Fanibhare</span>
+            <a href="https://himanshu-portfolio-beryl.vercel.app/" target="_blank" class="portfolio-btn">
+                👤
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
