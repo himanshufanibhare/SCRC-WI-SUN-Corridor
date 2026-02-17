@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="SCRC-Corridor-light" label="SCRC Corridor Light" description="This example demonstrates how to control the 4 channel relay module and controlling using the COAP commands." author="Himanshu Fanibhare">
+    <properties key="namespace" value="template.uc"/>
+    <properties key="projectFilePaths" value="Software/scrc_streetlight/scrc_streetlight.slcp"/>
+    <properties key="readmeFiles" value="Software/scrc_streetlight/README.md"/>
+    <properties key="boardCompatibility" value="brd2705a brd4163a brd4164a brd4170a  brd4253a brd4254a brd4270b brd4271a brd4272a brd4400c brd4401a brd4401b brd4401c com.silabs.board.none"/>
+    <properties key="partCompatibility" value=".*efr32mg12.* .*efr32fg28.* .*efr32zg28.* "/>
+    <properties key="ideCompatibility" value="simplicity-ide"/>
+    <properties key="toolchainCompatibility" value="gcc"/>
+    <properties key="category" value="Example|Wi-SUN"/>
+    <properties key="quality" value="EXPERIMENTAL"/>
+    <properties key="deviceType" value="SoC"/>
+    <properties key="projectDifficulty" value="Beginner"/>
+  </descriptors>
+
+</model:MDescriptors>
+
+
