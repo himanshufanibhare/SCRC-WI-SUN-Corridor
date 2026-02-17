@@ -44,7 +44,7 @@ sdk: {id: simplicity_sdk, version: 2025.6.2}
 toolchain_settings: []
 component:
 - {id: EFR32ZG28B312F1024IM48}
-- {id: brd2705a}
+- {id: hardware_board_none}
 - {id: device_init}
 - {id: iostream_recommended_console}
 - {id: iostream_retarget_stdio}
