@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
-  <descriptors name="SCRC-Corridor-light" label="SCRC Corridor Light" description="This example demonstrates how to control the 4 channel relay module and controlling using the COAP commands." author="Himanshu Fanibhare">
+  <descriptors name="SCRC-Corridor-Light" label="SCRC Corridor Light" description="This example demonstrates how to control the 4 channel relay module and controlling using the COAP commands." author="Himanshu Fanibhare">
     <properties key="namespace" value="template.uc"/>
     <properties key="projectFilePaths" value="Software/scrc_streetlight/scrc_streetlight.slcp"/>
     <properties key="readmeFiles" value="Software/scrc_streetlight/README.md"/>
