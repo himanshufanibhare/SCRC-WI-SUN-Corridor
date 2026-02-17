@@ -59,7 +59,7 @@ component:
 - {id: segger_rtt}
 - {id: segger_rtt_printf}
 - instance: [led0, led1, led2, led3, led4]
-- id: simple_led
+  id: simple_led
 - {id: sl_system}
 - {id: sl_wisun_app_core}
 - {id: sl_wisun_app_status}
