@@ -15,7 +15,9 @@
     <property object="PC03" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED2%T%sl_simple_led_led2_config.h"/>
     <property object="PC03" propertyId="pin.reserve" value="Reserved"/>
     <property object="PC04" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED3%T%sl_simple_led_led3_config.h"/>
+    <property object="PC04" propertyId="pin.reserve" value="Reserved"/>
     <property object="PC09" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_SIMPLE_LED_LED4%T%sl_simple_led_led4_config.h"/>
+    <property object="PC09" propertyId="pin.reserve" value="Reserved"/>
     <property object="PD03" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_RAIL_UTIL_RF_PATH_SWITCH_RADIO_ACTIVE%T%sl_rail_util_rf_path_switch_config.h"/>
     <property object="PD03" propertyId="pin.reserve" value="Reserved"/>
     <property object="PORTIO" propertyId="portio.eusart0.enable.cts" value="Enabled"/>
